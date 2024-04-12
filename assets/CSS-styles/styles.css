@@ -9,7 +9,9 @@ Neutra:
 - White: #fff
 */
 
+/* *** */
 /* GENERAL */
+/* *** */
 
 * {
   margin: 0;
@@ -33,7 +35,9 @@ body {
   background-color: #36384e;
 }
 
+/* *** */
 /* MAIN */
+/* *** */
 
 .container {
   background-color: #fff;
@@ -79,7 +83,9 @@ body {
   margin-bottom: 2.5rem;
 }
 
+/* *** */
 /* CTA FORM */
+/* *** */
 
 .form-cta label {
   margin-bottom: 0.5rem;
@@ -126,23 +132,24 @@ body {
   box-shadow: 0 0 0.5rem #000000b3;
 }
 
+/* *** */
 /* Error State */
+/* *** */
 
 .invalid input {
   border-color: #ff6257;
   background-color: #ffe5e2;
-  color: #ff6257;
 }
 
+.invalid input,
+.invalid-error,
 .invalid input::placeholder {
   color: #ff6257;
 }
 
-.invalid-error {
-  color: #ff6257;
-}
-
+/* *** */
 /* Success State */
+/* *** */
 
 .form-success {
   align-items: center;
@@ -160,8 +167,9 @@ body {
   width: 4rem;
   margin-bottom: 1.75rem;
 }
-
+/* *** */
 /* General styles for Main */
+/* *** */
 
 .success-icon {
   height: 1.25rem;
@@ -184,7 +192,10 @@ body {
 .open-inline {
   display: inline-block;
 }
+
+/* *** */
 /* FOOTER */
+/* *** */
 
 .attribution {
   font-size: 0.688rem;

@@ -29,7 +29,6 @@
   </head>
   <body>
     <main class="container flex">
-      <!-- Sign-up form start -->
       <div class="form-container open">
         <h1 class="form-title">Stay updated!</h1>
         <p class="form-text">
@@ -61,7 +60,9 @@
             <p class="list-text">And much more!</p>
           </li>
         </ul>
-        <form class="form-cta flex-col" action="">
+        <!-- Sign-up form start -->
+        <!-- POST method can be used along with the #email id for the server to receive the needed data -->
+        <form class="form-cta flex-col" action="" method="post">
           <label for="email">
             <div class="flex">
               <span>Email address</span>
@@ -81,8 +82,8 @@
             Subscribe to monthly newsletter
           </button>
         </form>
+        <!-- Sign-up form end -->
       </div>
-      <!-- Sign-up form end -->
 
       <!-- Success message start -->
       <div class="form-success flex-col">
@@ -100,6 +101,7 @@
         </p>
         <button class="btn dismiss">Dismiss message</button>
       </div>
+
       <!-- Success message end -->
       <img
         src="assets/images/illustration-sign-up-desktop.svg"
@@ -117,7 +119,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Viktor Kolev "smithy773"</a>.
     </footer>
     <script type="text/javascript" src="assets/JS-scripts/scripts.js"></script>
   </body>

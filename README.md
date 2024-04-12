@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-form-validation-css-js-6plXBamBN1)
 - Live Site URL: [GitHub Pages](https://smithy773.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process

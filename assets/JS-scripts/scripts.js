@@ -1,3 +1,5 @@
+// All needed elements are selected, then function listens for a click on the formBtn. When the formBtn is clicked, the if statement is initiated, which adds/removes the invalid and open-inline classes to certain elements. These classes apply the needed styles for the user to see if they have entered a valid email address and if not - why it is not valid. If the entered email is valid, the function removes the open class from all elements and adds it to the successForm element. The user is then able to click on the dismissBtn for the
+
 (function inputForm() {
   const formCont = document.querySelector(".form-container");
   const ctaForm = document.querySelector(".form-cta");
