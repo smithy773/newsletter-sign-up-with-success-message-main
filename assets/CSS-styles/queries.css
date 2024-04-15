@@ -141,12 +141,7 @@
     width: 1.25rem;
   }
 
-  .background-img {
-    display: none;
-  }
-
   .mobile-background-img {
-    display: block;
     border-radius: 2rem;
   }
 }
@@ -159,7 +154,6 @@
   }
 
   .mobile-background-img {
-    display: block;
     border-radius: 0;
   }
 
